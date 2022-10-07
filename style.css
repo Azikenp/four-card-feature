@@ -9,7 +9,7 @@ body{
 
 .container{
     width: 20rem;
-    margin-top: 4rem;
+    margin-top: 30rem;
 }
 
 h1{
@@ -86,12 +86,15 @@ article p{
 @media screen and (min-width:800px){
 
     .container{
+        margin-top: 10rem;
         width:80%;
     }
 
     h1{
+        font-size: 30px;
         width: 40%;
-        padding-left: 27%
+        padding-left: 29%
+    
     }
 
     .info{
