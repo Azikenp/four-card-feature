@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    width: 20rem;
+    margin-top: 4rem;
+}
+
+h1{
+    font-size: 21px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.info{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.card1{
+    background-color: white;
+    margin-top: 3rem;
+    border-radius: 10px;
+    height: 13rem;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    box-shadow: 10px 10px 30px -10px hsl(229, 6%, 66%)
+}
+
+.card2{
+    background-color: white;
+    margin-top: 1.2rem;
+    border-radius: 10px;
+    height: 12rem;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 10px 10px 30px -10px hsl(229, 6%, 66%)
+}
+
+.card3{
+    background-color: white;
+    margin-top: 1.2rem;
+    border-radius: 10px;
+    height: 13rem;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 10px 10px 30px -10px hsl(229, 6%, 66%)
+}
+
+.card4{
+    background-color: white;
+    margin-top: 1.2rem;
+    border-radius: 10px;
+    height: 13rem;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 10px 10px 30px -10px hsl(229, 6%, 66%);
+    margin-bottom: 3rem;
+}
+
+h2{
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    font-size: 18px;
+}
+
+img{
+    width: 2.5rem;
+    height: 2.5rem;
+    float: right;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+article p{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+@media screen and (min-width:800px){
+
+    .container{
+        width:80%;
+    }
+
+    h1{
+        width: 40%;
+        padding-left: 27%
+    }
+
+    .info{
+        width: 40%;
+        padding-left: 29%;
+    }
+
+    .card1, .card2, .card3, .card4{
+        width: 30%;
+        max-width: 350px;
+        display: inline-block;
+        height: 15rem;
+        margin-left: 2.2%;
+    }
+
+    .card1, .card3{
+        position: relative;
+        top: 7rem;
+    }
+
+    .card4{
+        margin-left: 35%;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .card1, .card2, .card3, .card4{
+        height: 13rem;
+    }
+}
